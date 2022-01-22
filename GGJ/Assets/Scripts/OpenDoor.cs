@@ -19,6 +19,8 @@ public class OpenDoor : MonoBehaviour
     //Other Door Script
     public OpenDoor otherDoor;
     public bool isOpen;
+    //cannot be open with player interaction
+    public bool isClose;
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +41,7 @@ public class OpenDoor : MonoBehaviour
         }
         transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, Mathf.LerpAngle(currentRotationAngle, defaultRotationAngle + (open ? doorOpenAngle : 0), openTime), transform.localEulerAngles.z);
 
-        if ((Input.GetKeyDown(KeyCode.F) && enter))
+        if (((Input.GetKeyDown(KeyCode.F) && enter)) && !isClose)
         {
             open = !open;
             otherDoor.isOpen = true;
@@ -49,7 +51,6 @@ public class OpenDoor : MonoBehaviour
 
         if (isOpen && !enter)
         {
-            Debug.Log("Test");
             isOpen = !isOpen;
             open = !open;
             currentRotationAngle = transform.localEulerAngles.y;
@@ -62,7 +63,10 @@ public class OpenDoor : MonoBehaviour
     {
         if (enter)
         {
-            GUI.Label(new Rect(Screen.width / 2 - 75, Screen.height - 100, 155, 30), "Press 'F' to " + (open ? "close" : "open") + " the door");
+            if (isClose)
+                GUI.Label(new Rect(Screen.width / 2 - 75, Screen.height - 100, 155, 30), "The door seems locked");
+            else
+                GUI.Label(new Rect(Screen.width / 2 - 75, Screen.height - 100, 155, 30), "Press 'F' to " + (open ? "close" : "open") + " the door");
         }
     }
 
