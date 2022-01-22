@@ -6,12 +6,16 @@ using UnityEngine.UI;
 public class State_button : MonoBehaviour
 {
     bool state = false;
-    public Button btn;
+    public Button lone;
+    public Button ltwo;
+    public Button lthree;
     // Update is called once per frame
-    public void Update()
+    public void check()
     {
-        btn.interactable = state;
+        lone.interactable = state;
+        ltwo.interactable = state;
+        lthree.interactable = state;
 
-        
+
     }
 }

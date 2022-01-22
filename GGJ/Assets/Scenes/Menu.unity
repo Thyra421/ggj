@@ -269,7 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9c28762b42d8b4197e89efaf5e183a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: {fileID: 12625057}
+  lone: {fileID: 0}
+  ltwo: {fileID: 0}
+  lthree: {fileID: 0}
 --- !u!1 &95736380
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +363,7 @@ GameObject:
   - component: {fileID: 101209836}
   - component: {fileID: 101209835}
   m_Layer: 5
-  m_Name: Text_button_menu
+  m_Name: Text_button_setting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -399,7 +401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9716981, g: 0.0061111883, b: 0.0061111883, a: 1}
+  m_Color: {r: 0, g: 0.8627451, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -574,7 +576,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9c28762b42d8b4197e89efaf5e183a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: {fileID: 155551908}
+  lone: {fileID: 0}
+  ltwo: {fileID: 0}
+  lthree: {fileID: 0}
 --- !u!1 &286540757
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,7 +750,7 @@ GameObject:
   - component: {fileID: 514375618}
   - component: {fileID: 514375617}
   m_Layer: 5
-  m_Name: Button_menu
+  m_Name: Button_setting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1109,7 +1113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9c28762b42d8b4197e89efaf5e183a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: {fileID: 851493953}
+  lone: {fileID: 0}
+  ltwo: {fileID: 0}
+  lthree: {fileID: 0}
 --- !u!1 &858862477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,7 +1341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9c28762b42d8b4197e89efaf5e183a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: {fileID: 0}
+  lone: {fileID: 0}
+  ltwo: {fileID: 0}
+  lthree: {fileID: 0}
 --- !u!1 &1083429645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1516,7 @@ GameObject:
   - component: {fileID: 1254186166}
   - component: {fileID: 1254186165}
   - component: {fileID: 1254186168}
+  - component: {fileID: 1254186169}
   m_Layer: 5
   m_Name: Button_play
   m_TagString: Untagged
@@ -1643,6 +1652,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   main_menu: {fileID: 1767759005}
   level: {fileID: 668784334}
+--- !u!114 &1254186169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254186163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9c28762b42d8b4197e89efaf5e183a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lone: {fileID: 155551908}
+  ltwo: {fileID: 851493953}
+  lthree: {fileID: 1076727530}
 --- !u!1 &1300937908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,10 +1913,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
