@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e66e3814-d522-403a-882e-21ee98eafdec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Mirror.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642842836304</updated>
       <workItem from="1642842890010" duration="7216000" />
-      <workItem from="1642856161479" duration="985000" />
+      <workItem from="1642856161479" duration="2216000" />
     </task>
     <servers />
   </component>
