@@ -70,12 +70,6 @@ public class OpenDoor : MonoBehaviour
         }
     }
 
-    //trigger other door
-    void LinkedDoor()
-    {
-
-    }
-
     // Activate the Main function when Player enter the trigger area
     void OnTriggerEnter(Collider other)
     {

@@ -16,7 +16,6 @@ public class GrabSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("A");
             if (pickedItem)
             {
                 DropItem(pickedItem);
