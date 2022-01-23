@@ -8,6 +8,6 @@ public class Crate : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(ball.position.x, 1, -ball.position.z);
+        transform.position = new Vector3(ball.position.x, ball.position.y, -ball.position.z);
     }
 }
